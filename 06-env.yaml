@@ -1,8 +1,8 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name:environment
-space:
+  name: environment
+spec:
   containers:
   - name: nginx
     image: nginx
@@ -10,7 +10,6 @@ space:
       - name: course
         value: devops
       - name: trainer
-        value: "sivakumar reddy"
+        value: "Thirupathi pintu"
       - name: duration
-        value: "120hrs"
-        
+        value: "120hr"
